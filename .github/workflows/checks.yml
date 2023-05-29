@@ -6,7 +6,7 @@ on: [push] # trigger
 jobs: 
   test-lint:
     name: Test and Lint # Human Freindly Name
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - name: Login to Docker Hub
         uses: docker/login-action@v2
